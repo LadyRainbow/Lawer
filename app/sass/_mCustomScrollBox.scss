@@ -1,0 +1,20 @@
+.mCustomScrollBox > .mCSB_scrollTools {
+    opacity: 1;
+    bottom: 20px;
+}
+.mCSB_scrollTools .mCSB_draggerRail {
+    width: 3px;
+}
+.mCSB_scrollTools .mCSB_dragger {
+    height: 40px !important;
+}
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar, .mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar {
+    width: 3px;
+    background: $buttonRed;
+}
+.mCSB_scrollTools .mCSB_draggerContainer {
+    right: -7px;
+}
+.mCSB_inside > .mCSB_container {
+    margin-right: 27px;
+}

@@ -1,0 +1,96 @@
+<section class="pa-section">
+    <div class="container">
+        <p class="pa-section-title">Личный кабинет</p>
+        <div class="pa-content">
+            <div class="row">
+                <div class="col-lg-3 col-12">
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                      <li class="nav-item">
+                        <a class="nav-link active user" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Личные данные</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link clock" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">История заказов</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link doc" id="messages-tab" data-toggle="tab" href="#messages" role="tab" aria-controls="messages" aria-selected="false">Реферальная <br>программа</a>
+                      </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-9 col-12">
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                      <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                          <p class="tab-content-title">Личные данные</p>
+                          <form action="">
+                              <div class="flex-row-center">
+                                  <div class="pa-input-block">
+                                      <input type="email" class="pa-input error required" data-input="email" placeholder="Ваше имя *">
+                                  </div>
+                                  <div class="pa-input-block">
+                                      <input type="text" placeholder="Ваш e-mail *" class="pa-input error required" data-input="name">
+                                  </div>
+                              </div>
+                              <div class="flex-row-center">
+                                  <div class="pa-save-btn">Сохранить</div>
+                                  <a href="#" class="change-password">Изменить пароль</a>
+                              </div>
+                          </form>
+
+                      </div>
+                      <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                          <p class="tab-content-title">История заказов</p>
+                          <div class="pa-table-wrp">
+                              <table role="table">
+                                  <thead role="rowgroup">
+                                    <tr role="row">
+                                      <th role="columnheader">Пакет:</th>
+                                      <th role="columnheader">На имя:</th>
+                                      <th role="columnheader">Приобретён:</th>
+                                      <th role="columnheader">Действителен до:</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody role="rowgroup">
+                                    <tr role="row">
+                                      <td role="cell">Pravopolis Standart</td>
+                                      <td role="cell">Иванов Иван Иванович</td>
+                                      <td role="cell">23.12.2018</td>
+                                      <td role="cell">23.12.2019</td>
+                                    </tr>
+                                    <tr role="row">
+                                      <td role="cell">Pravopolis Standart</td>
+                                      <td role="cell">Иванов Иван Иванович</td>
+                                      <td role="cell">12.12.2016</td>
+                                      <td role="cell">12.12.2017</td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                          </div>
+                      </div>
+                      <div class="tab-pane" id="messages" role="tabpanel" aria-labelledby="messages-tab">
+                          <p class="tab-content-title">Реферальная программа</p>
+                            <div class="docs-wrp">
+                                <div class="doc-block">
+                                    <p>Ваш промокод:</p>
+                                    <span>+380 (99) 888-77-66</span>
+                                    <img src="../../build/img/copy.png" alt="">
+                                    <img src="../../build/img/share.png" alt="">
+                                </div>
+                                <div class="doc-block">
+                                    <p>Вы привели:</p>
+                                    <span>2 человек</span>
+                                </div>
+                                <div class="doc-block">
+                                    <p>Вам начислено:</p>
+                                    <span class="span-bold">4 354 руб</span>
+                                </div>
+                                <div class="get-money">Вывести деньги</div>
+                            </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

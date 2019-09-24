@@ -1,0 +1,24 @@
+.policy {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    h2 {
+        padding-bottom: 20px;
+        text-transform: uppercase;
+        color: $textDark;
+    }
+    p {
+        font-size: 16px;
+        line-height: 24px;
+        padding-bottom: 25px;
+    }
+    h3 {
+        color: $textDark;
+        padding: 17px 0;
+        font-size: 28px;
+        font-family: 'Gilroy-Medium';
+    }
+    span {
+        display: inline-block;
+        padding-left: 20px;
+    }
+}
