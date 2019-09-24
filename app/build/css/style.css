@@ -2399,11 +2399,11 @@ input[type="submit"].main-send-btn {
   cursor: pointer;
   fill: #91bee4; }
   .maparea:hover {
-    fill: #d9d9d9; }
+    fill: #0da7d6; }
   .maparea.include:hover {
     fill: #0d70d6; }
-  .maparea.wait:hover {
-    fill: #0da7d6; }
+  .maparea.none:hover {
+    fill: #d9d9d9; }
 
 .main-screen-2 {
   position: relative;
