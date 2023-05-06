@@ -9,15 +9,15 @@
   "author": "MarinaT",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.24.5",
+    "browser-sync": "^2.29.1",
     "gulp-autoprefixer": "^5.0.0",
     "gulp-concat": "^2.6.1",
-    "gulp-htmlhint": "^2.1.1",
+    "gulp-htmlhint": "^2.2.1",
     "gulp-sass": "^4.0.1",
     "gulp-uglifyjs": "^0.6.2"
   },
   "dependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "natives": "^1.1.6",
     "node-sass": "^4.12.0"
   }
